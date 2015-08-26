@@ -51,7 +51,6 @@
     </style>
   </head>
   <body>
-      <!-- 2nd -->
       <section class="cd-intro" style="background-color:#3db8c7">
         <h1 id="head" class="cd-headline letters type">
           <div id="firstpage">
@@ -65,7 +64,6 @@
         </h1> 
       </section>
 
-      <!-- 3rd -->    
       <div class="cd-gallery-container">
         <h1 id="head2" style="color:#EFC206;font-size:5rem;text-align:center;font-weight:bold;margin-bottom:0">Portfolio</h1>
         <div id="explanation" style="color: #50A6C2;margin:0 auto;padding: 1.2em 0 1.2em 0;font-size:1.4rem;text-align:left;font-weight:200;line-height: 1.2;width:50%">
@@ -112,8 +110,18 @@
 
               </ul>
             </li>
-          </ul> <!-- cd-gallery -->
-        </div> <!-- cd-gallery-container -->     
+
+            <li>
+              <ul class="cd-item-wrapper">
+                <li data-type="red" class="is-visible">
+                  <a href="medicarepartd/index.html" target="_blank"><img src="img/medicare.png" alt="thumbnail"></a>
+                  <p>D3 Viz: Medicare Part D Cost</p>
+                </li>
+
+              </ul>
+            </li>
+          </ul> 
+        </div> 
 
         <div id="explanation" style="color: #50A6C2;margin:0 auto;padding: 1.2em 0 1.2em 0;font-size:1.4rem;text-align:left;font-weight:200;line-height: 1.2;width:50%">
         <p style="text-align:center;">Business Reporting</p>
@@ -159,8 +167,8 @@
 
               </ul>
             </li>
-          </ul> <!-- cd-gallery -->
-        </div> <!-- cd-gallery-container -->    
+          </ul> 
+        </div> 
 
        <!--  <div id="explanation" style="color: #50A6C2;margin:0 auto;padding: 1.2em 0 1.2em 0;font-size:1.4rem;text-align:left;font-weight:200;line-height: 1.2;width:50%">
         <p style="text-align:center;">Photo & Video</p>
@@ -183,7 +191,7 @@
         <!-- </div> --> <!-- cd-gallery-container -->  
       
 
-      <!-- 4th -->
+     
       <footer style="background-color:black;text-align:center">
       <a class="button" href="img/Jin_resume.pdf" target="_blank">Resume</a>
       </footer> 
@@ -194,20 +202,6 @@
       <script src="js/filter.js"></script>
       <script src="js/classie.js"></script>
       <script src="js/particleslider-current.min.js"></script>
-      <script type="text/javascript">
-        var ps = new ParticleSlider({
-            mouseForce:3000,
-            ptlGap: 0,
-            ptlSize: 1
-        });
-
-        var ptl = new ps.Particle(ps);
-            ptl.move();
-            ptl.velocityX += 10;
-            ptl.velocityY += 10;
-            ptl.gravityX = 10;
-            ptl.gravityY = 10;
-                                              
-      </script>
+     
   </body>
 </html>
