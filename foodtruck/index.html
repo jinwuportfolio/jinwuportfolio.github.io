@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Food Truck - The Fat Shallot</title>
+  
+  <meta name="viewport" content="width=device-width">
+
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+
+
+  <style>
+    body {
+      -webkit-font-smoothing: antialiased;
+      font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #232525;
+      padding-top:70px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    #slides {
+      display: none
+    }
+
+    #slides .slidesjs-navigation {
+      margin-top:3px;
+    }
+
+    #slides .slidesjs-previous {
+      margin-right: 5px;
+      float: left;
+    }
+
+    #slides .slidesjs-next {
+      margin-right: 5px;
+      float: left;
+    }
+
+    .slidesjs-pagination {
+      margin: 6px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+  </style>
+
+  <style>
+    #slides {
+      display: none
+    }
+
+    .container {
+      margin: 0 auto
+    }
+
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      body {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container {
+        width: 724px
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px;
+      }
+    }
+  </style>
+
+</head>
+<body>
+
+  <h1>Brown Friday protesters urge Black Friday boycott</h1>
+  <p style="text-align:center;">Photographer: Jin Wu</p>
+  <p style="padding: 0 10% 1% 10%;">Dozens of “Brown Friday” protesters in Chicago took a 5-hour march to raise the awareness of racism on black community and ask consumers to boycott Black Friday consumption. The demonstration was to protest of a Missouri grand jury decision not to indict Ferguson police Officer Darren Wilson in the fatal shooting of unarmed 18-year-old black man Michael Brown.</p>
+  <div class="container">
+    <div id="slides">
+      <img src="img/1.jpg" alt="Sam Barron, one of the owners of the Fat Shallot, a food truck in Chicago, tweets about the location of his food truck Friday, Nov. 14, 2014, so that customers could find it during the lunch time. He runs the food truck with his wife Sarah. Because of the restrictive food truck regulations in Chicago, food trucks could not park within 200 feet of a restaurant including Starbucks and 7-11, so there are not many parking spots for food trucks inside the Loop. This spot near 215 S. Clark St. is one of the best spots in the city of Chicago. Barron arrived here around 6:30 a.m. to get a spot.">
+      <img src="img/2.jpg" alt="">
+      <img src="img/3.jpg" alt="">
+      <img src="img/4.jpg" alt="">
+      <img src="img/5.jpg" alt="">
+      <img src="img/6.jpg" alt="">
+      <img src="img/7.jpg" alt="">
+      <img src="img/8.jpg" alt="">
+      <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+      <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+    </div>
+  </div>
+
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+  <script src="js/jquery.slides.min.js"></script>
+  
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 940,
+        height: 600,
+        navigation: false
+      });
+    });
+  </script>
+</body>
+</html>
