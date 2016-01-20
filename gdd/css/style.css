@@ -119,10 +119,11 @@ h3 {
       text-align: center;
     }
 
-#gdd_bar_title,svg,#source{
+#gdd_bar_title,svg,#source,#credit{
   margin-left: 15%;
+  line-height: 1.2em;
 }
 
-#source {
+#source{
   margin-right: 15%;
 }
